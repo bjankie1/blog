@@ -166,4 +166,4 @@ Speculative task has saved the day in our case. It has reduced the last percenti
 |99            |     35   |
 |99.9          |     65   |
 
-I live configuration of `monix.execution.Scheduler` to you. In our case the calls were blocking therefore we used fixed number of threads with size adjusted to duration of single call.
+I'll leave to you to adjust the configuration of `monix.execution.Scheduler`. In our case the calls were blocking therefore we used a fixed number of threads adjusted to the average duration of single call.
